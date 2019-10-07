@@ -4,10 +4,10 @@ import java.util.Arrays;
 
 public enum Muvelet {
     ISMERETLEN(null),
-    OSSZEADAS(new Osszeadas(false, "+")),
-    KIVONAS(new Osszeadas(true, "-")),
-    SZORZAS(new Szorzas(false, "*")),
-    OSZTAS(new Szorzas(true, ":"));
+    OSSZEADAS(new Osszeadas(false)),
+    KIVONAS(new Osszeadas(true)),
+    SZORZAS(new Szorzas(false)),
+    OSZTAS(new Szorzas(true));
 
     private final Feladat feladat;
 
