@@ -23,7 +23,10 @@ public class Main {
                 .map(i -> {
                     StringBuilder sor = new StringBuilder();
                     for (int m = 0; m < config.getMuveletek().size(); m++) {
-                        sor.append(feladatok.get(m).get(i)).append(ELVALASZTO);
+                        sor.append(feladatok.get(m).get(i));
+                        if (m<config.getMuveletek().size()-1) {
+                            sor.append(ELVALASZTO);
+                        }
                     }
                     return sor.toString();
                 })
