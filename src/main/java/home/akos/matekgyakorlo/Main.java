@@ -9,7 +9,7 @@ import java.util.stream.IntStream;
 import org.apache.commons.io.FileUtils;
 
 public class Main {
-    private static String ELVALASZTO = "\t\t\t";
+    private static String ELVALASZTO = "\t\t";
 
     public static void main(String[] args) throws IOException {
         Config config = new Config(args);
